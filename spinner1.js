@@ -1,4 +1,4 @@
-process.stdout.write('hello from spinner1.js... \rheyyy\n');
+process.stdout.write("hello from spinner1.js... \rheyyy\n");
 
 setTimeout(() => {
   process.stdout.write(`\r|   `);
@@ -14,7 +14,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   process.stdout.write(`\r\\   `);
-}, 700)
+}, 700);
 
 setTimeout(() => {
   process.stdout.write(`\r|   `);
@@ -30,7 +30,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   process.stdout.write(`\r\\   `);
-}, 1300)
+}, 1300);
 
 setTimeout(() => {
   process.stdout.write(`\r|   `);
@@ -46,4 +46,4 @@ setTimeout(() => {
 
 setTimeout(() => {
   process.stdout.write(`\r\\   `);
-}, 2100)
+}, 2100);
